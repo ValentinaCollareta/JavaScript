@@ -33,5 +33,6 @@ console.log(array.reverse());
 /*  f. Put together all the elements of the array in one single string where every month be separated
 by a dash - (using join).    */
 
+console.log(array.join("-"));
 
 /*  g. Create a copy of the array with the months from May to November (using slice).    */
