@@ -12,6 +12,7 @@ console.log(array[4], array[10]);
 
 /*  b. Order the array before alphabetically and show it in the console (using sort).    */
 
+console.log(array.sort());
 
 /*  c. Add an element at the start and the end of the array (using unshift y push).    */
 
