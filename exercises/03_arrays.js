@@ -36,3 +36,10 @@ by a dash - (using join).    */
 console.log(array.join("-"));
 
 /*  g. Create a copy of the array with the months from May to November (using slice).    */
+
+array = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"];
+var may = array.indexOf("May",0);
+var november = array.indexOf("November",0) + 1;
+var newArray = array.slice(may,november);
+console.log(newArray);
