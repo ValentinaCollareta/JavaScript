@@ -5,6 +5,9 @@
 /*  a. Create a string variable with at least 10 characters and convert all the text to
 upper case letters (using toUpperCase).   */
 
+var a = "There is a light and it never goes out.";
+console.log(a.toUpperCase());
+
 
 /*  b. Create a string variable with at least 10 characters and make a new string
 with the first 5 characters storing the result in a new variable (using
