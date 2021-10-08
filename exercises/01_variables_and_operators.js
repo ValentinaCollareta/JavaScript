@@ -5,6 +5,10 @@
 /*  a. Create two numeric variables and use the sum operator to store the value of the sum
 of both numbers in a third variable.  */
 
+var a = 10;
+var b = 1;
+var c = a + b;
+console.log(c);
 
 /*  b. Create two String variables and concatenate them storing the result in
 a third variable.   */
