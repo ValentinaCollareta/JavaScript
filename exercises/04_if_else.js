@@ -6,6 +6,13 @@
 greater or equal than 0,5 show an alert with the message “Greater than 0,5” and if not 
 an alert with the message “Lower than 0,5”. */
 
+var randomNumber = Math.random();
+console.log("Number: " + randomNumber);
+if (randomNumber >= 0.5) {
+    alert("Greater than 0,5");
+} else {
+    alert("Lower than 0,5");
+}
 
 /*  b) Create a variable "Age" with a integer number between 0 and 100 and show the
 next alert messages:
