@@ -28,6 +28,11 @@ console.log(e);
 upper case the first letter and let the others in lower case. Store the result in
 a new variable (using substring, toUpperCase, toLowerCase and +).   */
 
+var f = "There Is A Light And It Never Goes Out.";
+var g = f.substring(0,1);
+var h = f.substring(1);
+var i = g.toUpperCase() + h.toLowerCase();
+console.log(i);
 
 /*  e) Create a string variable with at least 10 characters and a space.
 Found the position of the first space and store the result in a new variable (using
