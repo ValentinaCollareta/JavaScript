@@ -8,11 +8,13 @@ upper case letters (using toUpperCase).   */
 var a = "There is a light and it never goes out.";
 console.log(a.toUpperCase());
 
-
 /*  b. Create a string variable with at least 10 characters and make a new string
 with the first 5 characters storing the result in a new variable (using
 substring).   */
 
+var b = "There is a light and it never goes out.";
+var c = b.substring(0,5);
+console.log(c);
 
 /*  c. Create a string variable with at least 10 characters and make a new string
 with the last 3 characters storing the result in a new variable (using
