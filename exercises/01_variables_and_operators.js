@@ -3,12 +3,12 @@
 * ****************************/
 
 /*  a. Create two numeric variables and use the sum operator to store the value of the sum
-of both numbers in another variable.  */
+of both numbers in a third variable.  */
 
 
-/*  b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er
-variable.   */
+/*  b. Create two String variables and concatenate them storing the result in
+a third variable.   */
 
 
-/*  c. Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras
-del string) guardando el resultado de la suma en una 3er variable (utilizar length).    */
+/*  c. Create two String variables and make the sum of the length of each variable (number of letters
+of the string) storing the result of the sum in a third variable.    */
