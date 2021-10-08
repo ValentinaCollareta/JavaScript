@@ -1,5 +1,5 @@
 /******************************
-* 2. Arrays
+* 3. Arrays
 * ****************************/
 
 /*  a. Using this array: ["January", "February", "March", "April", "May", "June",
