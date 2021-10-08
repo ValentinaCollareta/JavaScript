@@ -20,3 +20,8 @@ console.log(f);
 
 /*  c. Create two String variables and make the sum of the length of each variable (number of letters
 of the string) storing the result of the sum in a third variable.    */
+
+var g = "Radium";
+var h = "Rocket";
+var i = g.length + h.length;
+console.log(i);
