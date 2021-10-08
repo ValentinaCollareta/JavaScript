@@ -20,6 +20,9 @@ console.log(c);
 with the last 3 characters storing the result in a new variable (using
 substring).   */
 
+var d = "There is a light and it never goes out.";
+var e = d.substring(36);
+console.log(e);
 
 /*  d) Create a string variable with at least 10 characters and make a new string
 upper case the first letter and let the others in lower case. Store the result in
