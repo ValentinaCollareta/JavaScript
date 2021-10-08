@@ -28,6 +28,7 @@ console.log(array);
 
 /*  e. Reverse the order of the array (using reverse).    */
 
+console.log(array.reverse());
 
 /*  f. Put together all the elements of the array in one single string where every month be separated
 by a dash - (using join).    */
