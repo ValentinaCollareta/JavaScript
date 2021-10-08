@@ -46,3 +46,10 @@ console.log(k);
 some spaces between words). Using the methods of the previous exercises to make a
 new string, upper case the first letter of all words and let the others in lower case.
 (using indexOf, substring, toUpperCase, toLowerCase and +).   */
+
+var l = "darkened underpass";
+var n = l.indexOf(" ", 0);
+var m = l.substring(0,1).toUpperCase() + l.substring(1,n+1).toLowerCase();
+var o = l.substring(n+1, n+2).toUpperCase() + l.substring(n+2).toLowerCase();
+var p = m + o;
+console.log(p);
