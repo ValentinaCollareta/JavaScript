@@ -13,6 +13,10 @@ console.log(c);
 /*  b. Create two String variables and concatenate them storing the result in
 a third variable.   */
 
+var d = "Valentina ";
+var e = "Collareta";
+var f = d + e;
+console.log(f);
 
 /*  c. Create two String variables and make the sum of the length of each variable (number of letters
 of the string) storing the result of the sum in a third variable.    */
