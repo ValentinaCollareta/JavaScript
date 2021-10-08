@@ -38,6 +38,9 @@ console.log(i);
 Found the position of the first space and store the result in a new variable (using
 indexOf).   */
 
+var j = "Never Goes Out.";
+var k = j.indexOf(" ",0);
+console.log(k);
 
 /*  f) Create a string variable with at least 2 long words (10 characters and
 some spaces between words). Using the methods of the previous exercises to make a
