@@ -16,6 +16,9 @@ console.log(array.sort());
 
 /*  c. Add an element at the start and the end of the array (using unshift y push).    */
 
+array.unshift("Start");
+array.push("End");
+console.log(array);
 
 /*  d. Delete and element of the start and the end of the array (using shift y pop).    */
 
