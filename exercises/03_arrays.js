@@ -6,6 +6,9 @@
 "July", "August", "September", "October", "November", "December"] show it in the
 console the 5 and 11 month (using console.log).    */
 
+var array = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"];
+console.log(array[4], array[10]);
 
 /*  b. Order the array before alphabetically and show it in the console (using sort).    */
 
