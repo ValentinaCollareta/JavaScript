@@ -23,3 +23,21 @@ iv) “Young adult” between 20 and 30 years old;
 v) “Adult” between 31 and 60 years old;
 vi) “Old adult” between 61 and 75 years old;
 vii) “Elderly” if is greater than 75 years old. */
+
+var age = Math.floor(Math.random()*100);
+console.log("Age: " + age);
+if (age < 2) {
+    alert("Baby");
+} else if (age >= 2 && age < 13) {
+    alert("Kid");
+} else if (age >= 13 && age < 20) {
+    alert("Teenager");
+} else if (age >= 20 && age < 31) {
+    alert("Young adult");
+} else if (age >= 31 && age < 61) {
+    alert("Adult");
+} else if (age >= 61 && age < 76) {
+    alert("Old adult");
+} else if (age > 75) {
+    alert("Elderly");
+}
