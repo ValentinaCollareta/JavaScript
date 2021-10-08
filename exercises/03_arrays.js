@@ -22,6 +22,9 @@ console.log(array);
 
 /*  d. Delete and element of the start and the end of the array (using shift y pop).    */
 
+array.shift();
+array.pop();
+console.log(array);
 
 /*  e. Reverse the order of the array (using reverse).    */
 
