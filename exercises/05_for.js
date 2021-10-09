@@ -24,6 +24,12 @@ then iterate over the array of the first point with for loop to store
 every word inside the variable sentence. At the end, show an unique alert
 with the complete string.*/
 
+var sentence = "";
+for (var i = 0; i < array.length; i++) {
+    sentence = sentence + array[i] + " ";
+}
+alert(sentence.trim())
+
 /* d. Create an empty array and iterate over using for loop 10 times.
 Fill the array with the number of the iteration, it means that at the end
 of the execution of the for loop should have 10 elements inside the array,
