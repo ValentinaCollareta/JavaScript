@@ -30,6 +30,13 @@ console.log(result);
 /* c. Create a function validate integer who recieve a number as parameter
 and return true if is an integer number.*/
 
+function validateInteger(num) {
+    if (Number.isInteger(num)) {
+        console.log(true);
+    }
+}
+validateInteger(1);
+
 /* d. To the function "sum" of the 6 b) exercise, add a call that validate
 the numbers are integers. In case of decimal numbers, show an alert
 with the error and return the number converted to integer.*/
