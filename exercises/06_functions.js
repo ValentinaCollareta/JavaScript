@@ -60,3 +60,16 @@ validateDecimal(1.5, 5);
 
 /* e. Convert the validation of 6 b) exercise into a separate function
 and call it insite the "sum" function testing that everything still working.*/
+
+function sum(num1,num2) {
+    validation();
+    return num1 + num2;
+}
+function validation(num1, num2) {
+    if (typeof num1 != "number" || typeof num2 != "number") {
+        alert("One of the parameters have an error.")
+        result = NaN;
+        console.log(result);
+    }
+}
+result = sum("hola", 7);
