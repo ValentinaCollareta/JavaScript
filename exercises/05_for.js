@@ -36,3 +36,8 @@ of the execution of the for loop should have 10 elements inside the array,
 from 0 to 9. Show in the console of the navigator the final array
 (using console.log)*/
 
+var nArray = [];
+for (var i = 0; i < 10; i++) {
+    nArray.push(i);
+}
+console.log(nArray);
