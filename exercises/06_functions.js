@@ -16,6 +16,17 @@ console.log(result);
 some of the parameters is not a number, show an alert clarifying that one
 of the parameters have an error and return the NaN value as result.*/
 
+function sum(num1,num2) {
+    if (typeof num1 != "number" || typeof num2 != "number") {
+        alert("One of the parameters have an error.")
+        result = NaN;
+        console.log(result);
+    }
+    return num1 + num2;
+}
+result = sum(5,6);
+console.log(result);
+
 /* c. Create a function validate integer who recieve a number as parameter
 and return true if is an integer number.*/
 
