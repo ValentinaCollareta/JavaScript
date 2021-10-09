@@ -41,6 +41,11 @@ validateInteger(1);
 the numbers are integers. In case of decimal numbers, show an alert
 with the error and return the number converted to integer.*/
 
+function sum(num1,num2) {
+    validateDecimal();
+    return num1 + num2;
+}
+
 function validateDecimal(num1, num2) {
     if (!Number.isInteger(num1)) {
         alert("The number is decimal.")
