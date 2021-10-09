@@ -13,6 +13,12 @@ for (var i = 0; i < array.length; i++) {
 /* b. Convert the first letter of every word of the last array to upper case
 and show an alert for every modified word*/
 
+for (var i = 0; i < array.length; i++) {
+    var newArray = array[i].substring(0,1).toUpperCase() 
+    + array[i].substring(1).toLowerCase();
+    alert(newArray);
+}
+
 /* c. Create a variable called "sentence" that cointain an empty string
 then iterate over the array of the first point with for loop to store 
 every word inside the variable sentence. At the end, show an unique alert
