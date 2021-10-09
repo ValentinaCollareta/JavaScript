@@ -6,6 +6,12 @@
 result. Execute the function and store the result in a variable, showing
 the value of that variable in the console of the navigator.*/
 
+function sum(num1,num2) {
+    return num1 + num2;
+}
+var result = sum(5,6);
+console.log(result);
+
 /* b. To the function created before, add a validation to control if
 some of the parameters is not a number, show an alert clarifying that one
 of the parameters have an error and return the NaN value as result.*/
