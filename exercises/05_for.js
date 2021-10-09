@@ -5,6 +5,11 @@
 /* a. Create an array which contains 5 words and iterate over an array using
 JavaScript For to show an alert with each word.*/
 
+var array = ["house", "car", "bike", "table", "desk"];
+for (var i = 0; i < array.length; i++) {
+    alert(array[i]);
+}
+
 /* b. Convert the first letter of every word of the last array to upper case
 and show an alert for every modified word*/
 
