@@ -62,7 +62,7 @@ validateDecimal(1.5, 5);
 and call it insite the "sum" function testing that everything still working.*/
 
 function sum(num1,num2) {
-    validation();
+    validation(num1, num2);
     return num1 + num2;
 }
 function validation(num1, num2) {
