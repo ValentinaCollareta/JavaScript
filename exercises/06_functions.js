@@ -42,7 +42,7 @@ the numbers are integers. In case of decimal numbers, show an alert
 with the error and return the number converted to integer.*/
 
 function sum(num1,num2) {
-    validateDecimal();
+    validateDecimal(num1, num2);
     return num1 + num2;
 }
 
