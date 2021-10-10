@@ -5,7 +5,7 @@
 /* a. Create an array which contains 5 words and iterate over an array using
 JavaScript For to show an alert with each word.*/
 
-var array = ["house", "car", "bike", "table", "desk"];
+var array = ['house', 'car', 'bike', 'table', 'desk'];
 for (var i = 0; i < array.length; i++) {
     alert(array[i]);
 }
@@ -19,14 +19,14 @@ for (var i = 0; i < array.length; i++) {
     alert(newArray);
 }
 
-/* c. Create a variable called "sentence" that cointain an empty string
+/* c. Create a variable called 'sentence' that cointain an empty string
 then iterate over the array of the first point with for loop to store 
 every word inside the variable sentence. At the end, show an unique alert
 with the complete string.*/
 
-var sentence = "";
+var sentence = '';
 for (var i = 0; i < array.length; i++) {
-    sentence = sentence + array[i] + " ";
+    sentence = sentence + array[i] + ' ';
 }
 alert(sentence.trim())
 
