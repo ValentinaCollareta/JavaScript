@@ -42,6 +42,22 @@ the numbers are integers. In case of decimal numbers, show an alert
 with the error and return the number converted to integer.*/
 
 function sum(num1,num2) {
+    if (!Number.isInteger(num1)) {
+        alert('The number is decimal.')
+        console.log(Math.floor(num1))
+    }
+    if (!Number.isInteger(num2)) {
+        alert('The number is decimal.')
+        console.log(Math.floor(num2))
+    }
+    return num1 + num2;
+}
+sum(1.5, 8);
+
+/* e. Convert the validation of 6 d) exercise into a separate function
+and call it insite the 'sum' function testing that everything still working.*/
+
+function sum(num1,num2) {
     validateDecimal(num1, num2);
     return num1 + num2;
 }
@@ -56,20 +72,4 @@ function validateDecimal(num1, num2) {
         console.log(Math.floor(num2))
     }
 }
-validateDecimal(1.5, 5);
-
-/* e. Convert the validation of 6 b) exercise into a separate function
-and call it insite the 'sum' function testing that everything still working.*/
-
-function sum(num1,num2) {
-    validation(num1, num2);
-    return num1 + num2;
-}
-function validation(num1, num2) {
-    if (typeof num1 != 'number' || typeof num2 != 'number') {
-        alert('One of the parameters have an error.')
-        result = NaN;
-        console.log(result);
-    }
-}
-result = sum('hola', 7);
+validateDecimal(1.5,5);
