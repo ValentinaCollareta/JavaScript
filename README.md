@@ -3,7 +3,7 @@
 :small_orange_diamond: For this week, we had to solve some exercises using JavaScript.
 
 **You can see the result here**
-- https://valentinacollareta.github.io/JavaScript/ & also in the navigator console.
+- :star: Github Page: https://valentinacollareta.github.io/JavaScript/ & also in the navigator console.
     - Consider that there are a lot of alerts! :hand_over_mouth:
 
 ## Weekly challenge 04 part II
